@@ -51,7 +51,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 300px;
+  margin-right: 400px;
 
   /* Second Nav */
   /* margin-right: -24px; */
@@ -61,7 +61,7 @@ export const NavMenu = styled.div`
   white-space: nowrap; */
 
   @media screen and (max-width: 768px) {
-    display: none;
+    display: flex;
   }
 `;
 
